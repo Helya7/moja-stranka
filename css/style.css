@@ -18,7 +18,18 @@
     ;
 }
 
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 /* header */
+
+.icon {
+    width: 77px;
+    height: 77px;
+
+}
 
 .header {
     background-color: var(--priority-bgr-color);
@@ -106,15 +117,12 @@
 
 .title {
     color: var(--priority-bgr-color);
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 56px;
-    line-height: 0.9;
     letter-spacing: 0.02em;
     max-width: 496px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 48px;
 }
 
 /* flip card */
@@ -122,10 +130,7 @@
 .cards {
     display: flex;
     gap: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    justify-content: center;
 }
 
 .flip-card {
@@ -172,4 +177,88 @@
 .paragraf-card {
     padding: 15px;
     text-align: left;
+}
+
+.h2-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    max-width: 496px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* team section */
+
+.team-section {
+    background-color: var(--bgr-team);
+    padding-bottom: 120px;
+}
+
+.container-team {
+    display: flex;
+    gap: 40px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    justify-content: center;
+}
+
+.team-img {
+    display: block;
+    max-width: 100%;
+}
+
+.team-div {
+    padding: 32px 16px;
+}
+
+.paragraph-team {
+    text-align: center;
+}
+
+.markers-team {
+    list-style-type: none;
+    background-color: var(--priority-bgr-color);
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 72px;
+    column-gap: 24px;
+}
+
+.h3-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 20px;
+    max-width: 496px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* models */
+
+.paragraf {
+    color: var(--priority-color);
+    padding: 50px;
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--second-bgr-color);
+}
+
+.paragraf-footer {
+    color: var(--priority-text-color);
+}
+
+.container.footer-div {
+    display: flex;
+    gap: 50px;
+    padding: 40px 0px;
 }
