@@ -24,6 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     */
 
     // Ответ пользователю
-    echo "Спасибо за ваш заказ! Мы свяжемся с вами в ближайшее время.";
+    echo "Ďakujeme za vašu objednávku!";
 }
 ?>
