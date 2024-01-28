@@ -125,6 +125,17 @@
     margin: 0 auto;
 }
 
+.button-of-order{
+    background-color: var(--button-color);
+        color: var(--priority-bgr-color);
+        font-weight: 500;
+        border-radius: 4px;
+        border: var(--button-color);
+        cursor: pointer;
+        height: 50px;
+        width: 120px;
+}
+
 /* flip card */
 
 .cards {
@@ -169,7 +180,7 @@
 }
 
 .flip-card-back {
-    background-color: var(--bgr-cards);
+    background-color: var(--second-bgr-color);
     color: var(--priority-text-color);
     transform: rotateY(180deg);
 }
@@ -238,6 +249,7 @@
     max-width: 496px;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 /* models */
@@ -245,6 +257,21 @@
 .paragraf {
     color: var(--priority-color);
     padding: 50px;
+}
+
+.models {
+    padding-bottom: 100px;
+}
+
+.h3-title.models {
+    color: var(--priority-text-color);
+    font-weight: 700;
+    font-size: 20px;
+    max-width: 496px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 /* footer */
@@ -261,4 +288,41 @@
     display: flex;
     gap: 50px;
     padding: 40px 0px;
+}
+
+/* contacts */
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.mail-contacts {
+    padding-top: 220px;
+}
+
+/* order */
+
+.container-order {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    padding: 50px 500px;
+}
+
+.order-label {
+    height: 30px;
+    padding-top: 10px;
+}
+
+.order-input {
+    height: 30px;
+}
+
+.order-btn {
+    padding: 10px;
+    width: 100px;
+    margin: 20px 200px;
 }

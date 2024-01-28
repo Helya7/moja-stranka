@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="index.html"
+            ><img class="icon" src="./images/elektro-car.png" alt=""
+          /></a>
+          <ul class="header-menu">
+            <li class="markers">
+              <a class="header-link" href="index.html">Home</a>
+            </li>
+            <li class="markers">
+              <a class="header-link" href="./models.html">Models</a>
+            </li>
+            <li class="markers">
+              <a class="header-link" href="./contacts.html">Contacts</a>
+            </li>
+            <li class="markers">
+              <a class="header-link active" href="./order.html">Order</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="address">
+            <li class="markers">
+              <a class="contact" href="mailto:olha.chasova@student.tuke.sk"
+                >olha.chasova@student.tuke.sk</a
+              >
+            </li>
+            <li class="markers">
+              <a class="contact" href="tel:+421000111000">+421 (000) 111-000</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main>
+        <form action="order.php" method="post">
+                <div class="container-order">
+                    <!-- <hr> -->
+
+                    <label for="first_name" class="order-label"><b>Meno</b></label>
+                    <input type="text" placeholder="Meno" name="meno" id="meno" required class="order-input">
+
+                    <label for="last_name" class="order-label"><b>Priezvisko</b></label>
+                    <input type="text" placeholder="Priezvisko" name="priezvisko" id="priezvisko" required class="order-input">
+
+                    <label for="email" class="order-label"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required class="order-input">
+
+                    <!-- <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required> -->
+
+                    <input type="submit" class="order-btn">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-div">
+        <!-- <div class="footer-div"> -->
+        <a href="index.html"
+          ><img class="icon" src="./images/white-car.png" alt=""
+        /></a>
+        <!-- </div> -->
+        <!-- <div class="footer-div"> -->
+        <p class="paragraf-footer">Olha Chasova študentka MLD-1</p>
+        <!-- </div> -->
+      </div>
+    </footer>
+  </body>
+</html>
